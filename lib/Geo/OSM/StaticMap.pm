@@ -4,7 +4,7 @@ use warnings;
 
 package Geo::OSM::StaticMap;
 BEGIN {
-  $Geo::OSM::StaticMap::VERSION = '0.1';
+  $Geo::OSM::StaticMap::VERSION = '0.2';
 }
 
 use Moose;
@@ -170,7 +170,7 @@ Geo::OSM::StaticMap - Generate URLs to Open Street Map static maps
 
 =head1 VERSION
 
-version 0.1
+version 0.2
 
 =head1 SYNOPSIS
 

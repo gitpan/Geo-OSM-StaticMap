@@ -30,6 +30,7 @@
       "test" : {
          "requires" : {
             "Carp" : 0,
+            "Config" : 0,
             "English" : 0,
             "File::Find" : 0,
             "File::Temp" : 0,
@@ -41,7 +42,7 @@
    "provides" : {
       "Geo::OSM::StaticMap" : {
          "file" : "lib/Geo/OSM/StaticMap.pm",
-         "version" : "0.1"
+         "version" : "0.2"
       }
    },
    "release_status" : "stable",
@@ -50,7 +51,12 @@
          "mailto" : "bug-geo-osm-staticmap at rt.cpan.org",
          "web" : "http://rt.cpan.org/Public/Dist/Display.html?Name=Geo-OSM-StaticMap"
       },
-      "homepage" : "http://search.cpan.org/dist/Geo-OSM-StaticMap/"
+      "homepage" : "http://github.com/pepl/geo-osm-staticmap/tree",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/pepl/geo-osm-staticmap.git",
+         "web" : "http://github.com/pepl/geo-osm-staticmap/tree"
+      }
    },
-   "version" : "0.1"
+   "version" : "0.2"
 }

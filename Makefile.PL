@@ -13,6 +13,7 @@ my %WriteMakefileArgs = (
   'AUTHOR' => 'Michael Kröll <pepl@cpan.org>',
   'BUILD_REQUIRES' => {
     'Carp' => '0',
+    'Config' => '0',
     'English' => '0',
     'File::Find' => '0',
     'File::Temp' => '0',
@@ -31,7 +32,7 @@ my %WriteMakefileArgs = (
     'Math::Trig' => '0',
     'Moose' => '0'
   },
-  'VERSION' => '0.1',
+  'VERSION' => '0.2',
   'test' => {
     'TESTS' => 't/*.t'
   }
