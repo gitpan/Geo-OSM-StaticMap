@@ -29,10 +29,6 @@
       },
       "test" : {
          "requires" : {
-            "Carp" : 0,
-            "Config" : 0,
-            "English" : 0,
-            "File::Find" : 0,
             "File::Temp" : 0,
             "Scalar::Util" : 0,
             "Test::More" : "0.94"
@@ -42,7 +38,7 @@
    "provides" : {
       "Geo::OSM::StaticMap" : {
          "file" : "lib/Geo/OSM/StaticMap.pm",
-         "version" : "0.2"
+         "version" : "0.3"
       }
    },
    "release_status" : "stable",
@@ -58,5 +54,5 @@
          "web" : "http://github.com/pepl/geo-osm-staticmap/tree"
       }
    },
-   "version" : "0.2"
+   "version" : "0.3"
 }

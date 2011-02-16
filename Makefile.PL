@@ -12,10 +12,6 @@ my %WriteMakefileArgs = (
   'ABSTRACT' => 'Generate URLs to Open Street Map static maps',
   'AUTHOR' => 'Michael Kröll <pepl@cpan.org>',
   'BUILD_REQUIRES' => {
-    'Carp' => '0',
-    'Config' => '0',
-    'English' => '0',
-    'File::Find' => '0',
     'File::Temp' => '0',
     'Scalar::Util' => '0',
     'Test::More' => '0.94'
@@ -32,7 +28,7 @@ my %WriteMakefileArgs = (
     'Math::Trig' => '0',
     'Moose' => '0'
   },
-  'VERSION' => '0.2',
+  'VERSION' => '0.3',
   'test' => {
     'TESTS' => 't/*.t'
   }
